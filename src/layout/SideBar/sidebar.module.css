@@ -1,6 +1,10 @@
 .sidebar {
     width: 100%;
-    /*position: absolute;*/
     height: 100vh;
-    background-color: #000;
+    padding: 50px 20px;
+    border-right: 1px solid #ccc;
+}
+
+.navItem {
+    list-style: none;
 }

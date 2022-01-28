@@ -1,0 +1,107 @@
+@media only screen and (max-width: 1200px) {
+  .containeR {
+    padding: 0 2rem;
+  }
+  .navFlex {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+  }
+  .FirstFlex {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .navBtn a,
+  .MainBtn a {
+    font-size: 1.2rem;
+    padding: 0.6rem 2.1rem;
+  }
+  .navFlex li,
+  .bgBear,
+  .backBg,
+  .backBgbearbook,
+  .bgbearfly,
+  .Foottext {
+    display: none;
+  }
+  .mainTitle,
+  .TreeMainTitle {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .TreeMainTitle,
+  .FourFlex {
+    margin-bottom: 3rem;
+  }
+  .headerImg {
+    width: 10%;
+    height: auto;
+  }
+  .textDescrip {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+  .backBg {
+    left: 0;
+    max-width: 100%;
+  }
+  .navigationImg {
+    right: 4rem;
+  }
+  .starBlue,
+  .starYellow {
+    font-size: 1.8rem;
+  }
+  .FirstFlex,
+  .SecText,
+  .BtnDesc {
+    flex-direction: column;
+  }
+  .SecMain {
+    flex-direction: column-reverse;
+  }
+  .treeTitleSec,
+  .firstFlexPartOne {
+    width: 100%;
+  }
+  .TreeFlex {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .secTreeImg {
+    position: relative;
+  }
+  .secTreeImg img {
+    width: 100%;
+    height: auto;
+  }
+  .footerLogo {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 2rem;
+  }
+  .footerSec {
+    padding: 1.8rem 1rem;
+  }
+  .FiveFlex {
+    flex-direction: column;
+  }
+  .fiveImg {
+    position: relative;
+    text-align: center;
+    right: 0;
+  }
+  .selectVersion {
+    width: 100%;
+  }
+  .fourMain {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .FourTitleTrans {
+    transform: rotate(360deg);
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+}

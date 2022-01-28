@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+.grid-list-button {
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 0 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.grid-list-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.grid-list-button.active {
+    background: #F0F0F0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.grid-list-button.darkMode{
+    background-color: #1E1E1E;
+}
+.grid-list-button.darkMode.active {
+    background: #000000;
 }
 
-.App-link {
-  color: #61dafb;
+.grid-list-button:hover {
+    background: #F0F0F0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mobile-navbar {
+    display: none;
+    background: #F0F0F0;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 18px;
+    width: 100%;
+    justify-content: flex-end;
 }
+
+.mobile-navbar.darkMode {
+    background: #1E1E1E;
+    border: 3px solid #000;
+}
+
+.searchInputDesktop {
+    display: block !important;
+}
+
+.searchInputDesktop input {
+    border-radius: 12px !important;
+    background: #F9F9F9 !important;
+    border: none !important;
+    padding-left: 45px !important;
+    position: relative !important;
+    box-shadow: none !important;
+    height: 42px !important;
+    width: 100% !important;
+}
+
+.searchInputDesktop.darkMode input {
+    background: #1E1E1E !important;
+    border-radius: 12px !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.searchInputDesktop svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+    z-index: 10;
+}
+
+.searchInputMobile svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 25px;
+    z-index: 10;
+}
+
+.searchInputMobile {
+    display: none !important;
+    margin-bottom: 27px;
+}
+
+.searchInputMobile input {
+    width: 100% !important;
+    border-radius: 12px !important;
+    height: 42px !important;
+    background: #F9F9F9 !important;
+    border: none !important;
+    padding-left: 45px !important;
+    position: relative !important;
+    box-shadow: none !important;
+}
+
+.searchInputMobile.darkMode input {
+    background: #1E1E1E !important;
+    border-radius: 12px !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.card-body.dark .card-title {
+    color: #F9F9F9 !important;
+}
+
+.card-body.dark .card-text {
+    color: #969696 !important;
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        display: none;
+    }
+
+    .mobile-navbar {
+        display: flex;
+    }
+
+    .searchInputDesktop {
+        display: none !important;
+    }
+
+    .searchInputMobile {
+        display: block !important;
+    }
+}
+
