@@ -1,0 +1,15 @@
+.card {
+    width: 18rem;
+    height: 400px;
+    marginBottom: 30px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.cardImg {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
